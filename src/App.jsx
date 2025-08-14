@@ -9,8 +9,8 @@ const App = () => {
     return (
         <HashRouter>
             <Routes>
-                <Route path="/armFIshing/" element={<FirstPage />} />
-                <Route path="/armFIshing/AllUsersPage" element={<AllUsersPage />} />
+                <Route path="/" element={<FirstPage />} />
+                <Route path="/AllUsersPage" element={<AllUsersPage />} />
             </Routes>
         </HashRouter>
     )
